@@ -285,7 +285,7 @@ namespace GilsonSdk
         /// </summary>
         /// <param name="command">The command to execute</param>
         /// <param name="parameters">The parameters.</param>
-        public Task ExecuteBufferedCommandAsync(char command, string parameters = null) => ExecuteBufferedCommandAsync(Convert.ToByte(command));
+        public Task ExecuteBufferedCommandAsync(char command, string parameters = null) => ExecuteBufferedCommandAsync(Convert.ToByte(command), parameters);
 
         /// <summary>
         /// Executes a buffered command asynchronously
